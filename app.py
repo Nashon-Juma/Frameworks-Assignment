@@ -16,6 +16,7 @@ st.set_page_config(
 class CORD19App:
     def __init__(self):
         self.df = None
+        
         self.load_data()
     
     def load_data(self):
